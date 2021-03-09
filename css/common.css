@@ -47,8 +47,8 @@ header .top_menu .wrap .text li:hover a{font-weight: bold;}
 
 footer{background-color: #000;padding: 20px 0;}
 
-footer .text{}
-footer .text p{color: #fff;line-height: 60px;padding-left: 50px;padding-right: 50px;position: relative;margin: 0 auto;text-align: center;}
+footer .text{text-align: center;}
+footer .text p{color: #fff;line-height: 60px;padding-left: 50px;padding-right: 50px;position: relative;text-align: center;display: inline-block;}
 footer .text p:before{content:""; display: block; position: absolute; top:0; left:0; width: 50px; height: 100%; background-image: url(../images/h1-slider1-img-1.png); background-size: auto 40px; background-repeat: no-repeat; background-position: 0 50%;}
 footer .text p:after{content:""; display: block; position: absolute; top:0; right:0; width: 50px; height: 100%; background-image: url(../images/h1-slider1-img-2.png); background-size: auto 40px; background-repeat: no-repeat; background-position: 100% 50%;}
 
